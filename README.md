@@ -1,4 +1,4 @@
-# FE-550A
+# FE-595A
 # Plot sine and cos on same axis
 import matplotlib.pyplot as plt
 import numpy as np
