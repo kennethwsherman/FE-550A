@@ -3,6 +3,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Initialize a Figure 
+fig = plt.figure()
+
+
 x = np.arange(0, 2*np.pi, 0.1)
 
 y = np.sin(x)
@@ -51,5 +55,5 @@ plt.legend()
 plt.show()
 
 #Add a feature that saves the resulting graph locally
-plt.savefig('Assignment2.pdf')
+fig.savefig('Assignment2.pdf')
 
